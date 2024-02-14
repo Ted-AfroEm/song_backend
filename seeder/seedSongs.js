@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Song = require("../models/Songs");
+const Song = require("../models/song");
 
 const songs = [
   {
