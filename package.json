@@ -4,6 +4,7 @@
   "description": "Backend for song MERN project",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,12 +17,12 @@
     "url": "https://github.com/Ted-AfroEm/song_backend/issues"
   },
   "homepage": "https://github.com/Ted-AfroEm/song_backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
   "dependencies": {
     "body-parser": "^1.20.2",
     "express": "^4.18.2",
     "mongoose": "^8.1.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.3"
   }
 }
